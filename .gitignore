@@ -1,0 +1,46 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Generated benchmark data and local database files
+/data/*
+!/data/README.md
+/results/raw/*
+!/results/raw/README.md
+*.duckdb
+*.duckdb.wal
+*.db
+*.db.wal
+*.tmp/
+/baseline/upstream/
+
+# Local credentials and transient logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Local editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+*~
+
+# Report build intermediates and submission archives
+/report/build/
+/report/*.aux
+/report/*.log
+/report/*.out
+/report/*.toc
+/deliverables/
